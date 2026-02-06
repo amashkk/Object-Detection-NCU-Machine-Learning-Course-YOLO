@@ -117,13 +117,6 @@ id,image_name,class,confidence,top-left x-coordinate,top-left y-coordinate,botto
 - **NMS 閾值**: 非極大值抑制閾值
 - **輸入尺寸**: 根據模型訓練時的設定
 
-## 📝 注意事項
-
-1. **GPU 記憶體**: 訓練過程需要充足的 GPU 記憶體，建議使用至少 12GB VRAM 的顯示卡
-2. **資料預處理**: 確保影像格式和標註格式符合 YOLO 要求
-3. **編碼設定**: 程式碼中包含 UTF-8 編碼設定，避免中文字元錯誤
-4. **模型儲存**: 訓練過程會自動儲存最佳模型權重
-
 ## 🤝 貢獻
 
 歡迎提出問題和建議！如果你想為專案做出貢獻：
@@ -136,28 +129,4 @@ id,image_name,class,confidence,top-left x-coordinate,top-left y-coordinate,botto
 
 ## 📄 授權
 
-本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案
-
-## 👨‍🏫 課程資訊
-
-- **課程**: CE6102
-- **作業**: YOLO Object Detection
-- **指導教授**: Prof. Chia-Yu Lin
-- **年度**: 2025
-
-## 🙏 致謝
-
-- [Ultralytics YOLOv12](https://github.com/ultralytics/ultralytics) - 提供優秀的 YOLO 實作框架
-- [Kaggle](https://www.kaggle.com/) - 提供競賽平台和資料集
-- Prof. Chia-Yu Lin - 課程指導與支持
-
-## 📧 聯絡方式
-
-如有任何問題或建議，請透過以下方式聯絡：
-
-- 開啟 GitHub Issue
-- 電子郵件：[你的信箱]
-
----
-
-⭐ 如果這個專案對你有幫助，請給予星標支持！
+本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案s
